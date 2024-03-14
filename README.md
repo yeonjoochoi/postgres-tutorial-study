@@ -18,7 +18,7 @@
 | 8주차 | PostgreSQL Administration          |
 | 9-10주차 | 상기 개념과 예제를 활용한 시나리오 작성 |
 
-<br><br>
+<br />
 ## 진행 방법
 매주 주어진 섹션을 완료하고, 학습 내용에 대한 질문이나 의견을 이슈로 등록합니다.  
 각 주차별로 정해진 섹션을 공부한 후, 학습 내용을 공유합니다.
@@ -26,7 +26,7 @@
 
 ## 참여자
 <table>
-    <td align="center"><a href="https://github.com/dwtopzz"><img src="https://github.com/dwtopzz.png" width="100px;" /><br /><sub>최연주</sub></a><br /></td>
-    <td align="center"><a href="https://github.com/"><img src="https://github.com/" width="100px;" /><br /><sub>전찬호</sub></a><br /></td>
-    <td align="center"><a href="https://github.com/"><img src="https://github.com/" width="100px;" /><br /><sub>이세현</sub></a><br /></td>
+    <td align="center"><a href="https://github.com/yeonjoochoi"><img src="https://github.com/yeonjoochoi.png" width="100px;" /><br /><sub>최연주</sub></a><br /></td>
+    <td align="center"><a href="https://github.com/ChanoJeon"><img src="https://github.com/ChanoJeon.png" width="100px;" /><br /><sub>전찬호</sub></a><br /></td>
+    <td align="center"><a href="https://github.com/sehyun-DBA"><img src="https://github.com/sehyun-DBA.png" width="100px;" /><br /><sub>이세현</sub></a><br /></td>
 </table>
