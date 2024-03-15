@@ -1,4 +1,15 @@
-섹션 1. 데이터 쿼리
+
+|목차|내용|
+|------|---|
+|1|[데이터_쿼리](#데이터-쿼리)|
+|2|[데이터_필터링](#데이터-필터링)|
+|3|[테이블_조인](#여러-테이블-조인)|
+|4|[데이터_그룹화](#데이터-그룹화)|
+|5|[집합_연산](#집합-연산)|
+|6|[그룹세트,큐브 및 롤업](#그룹-세트,큐브-및-롤업)|
+|7|[서브쿼리](#서브쿼리)|
+
+# 섹션 1. 데이터 쿼리
 
 **Select**
 
@@ -47,7 +58,7 @@ SELECT DISTINCT department_id
 FROM employees;
 ```
 
-섹션 2. 데이터 필터링
+# 섹션 2. 데이터 필터링
 
 **Where**
 
@@ -149,7 +160,7 @@ SELECT * FROM employees
 WHERE email IS NULL;
 ```
 
-섹션 3. 여러 테이블 조인
+# 섹션 3. 여러 테이블 조인
 
 **JOINS**
 
@@ -242,7 +253,7 @@ SELECT * FROM employees, departments
 WHERE employees.department_id = departments.department_id;
 ```
 
-섹션 4. 데이터 그룹화
+# 섹션 4. 데이터 그룹화
 
 **Group By**
 
@@ -270,7 +281,7 @@ GROUP BY department_id
 HAVING AVG(salary) > 50000;
 ```
 
-섹션 5. 집합 연산
+# 섹션 5. 집합 연산
 
 **Union**
 
@@ -308,7 +319,7 @@ EXCEPT
 SELECT employee_id FROM managers;
 ```
 
-섹션 6. 그룹 세트, 큐브 및 롤업
+# 섹션 6. 그룹 세트, 큐브 및 롤업
 
 **Grouping Sets**
 
@@ -347,7 +358,7 @@ FROM employees
 GROUP BY ROLLUP (department_id, job_id);
 ```
 
-섹션 7. 서브쿼리
+# 섹션 7. 서브쿼리
 
 **Subquery**:
 
